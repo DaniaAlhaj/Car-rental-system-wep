@@ -1,0 +1,40 @@
+/* Add this to your style.css file */
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333; /* Dark gray color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    cursor: pointer; /* To indicate that the column headers are clickable */
+}
+
+tr.future {
+    background-color: #e0f7fa; /* Light blue for future rentals */
+    font-weight: bold;
+}
+
+tr.current {
+    background-color: #b3e5fc; /* Medium blue for current rentals */
+    font-weight: bold;
+}
+
+tr.past {
+    background-color: #81d4fa; /* Dark blue for past rentals */
+    font-weight: bold;
+}

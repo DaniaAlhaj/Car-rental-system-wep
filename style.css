@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header-container {
+    background-color: rgb(64, 0, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-container p {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.links_header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.links_header li {
+    margin: 10px;
+}
+
+.links_header a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 3px solid white;
+}
+
+.header-container img {
+    width: 90px;
+    height: 70px;
+}
+
+/* Footer */
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 10px 0;
+}
+
+.footer_container img {
+    width: 90px;
+    height: 70px;
+}
+
+.address_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address_footer p {
+    margin: 10px;
+}
+
+.address_footer a {
+    text-decoration: none;
+    padding-bottom: 4px;
+    font-size: 18px;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.footer_container a {
+    text-decoration: none;
+    padding-bottom: 4px;
+    font-size: 18px;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/* main and navigation */
+.main_container {
+    display: flex;
+  
+}
+
+.main-nav {
+    width: 15%;
+    background-color: #fff; 
+    padding: 20px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-nav li {
+    margin-bottom: 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #0711c5;
+    font-size: 18px;
+    
+    border-bottom: 2px solid #0711c5;
+}
+
+.main-content {
+    width: 85%;
+    background-color: #f0f0f0; 
+    padding: 20px;
+  
+}
+
+.main-content p {
+  padding: 20px;
+}
+
+.det{
+    text-align: center;
+margin: 20px;
+}
+
+
+/* main styles */
+
+main {
+    padding: 2rem;
+}
+
+/* form styles */
+form fieldset {
+    border: 2px solid  rgb(64, 0, 255);;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+table{
+    text-align: center;
+    margin-top: 30px;
+}
+th, td {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+}
+.special-text {
+    font-weight: bold;
+    color: red;
+}
+
+input[type="text"],input[type="number"],input[type="Date"],textarea,select,input[type="password"], input[type="email"]   {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.button_table{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+.button_table:hover {
+    background-color: #0056b3;
+    color: black;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    color: black;
+}
+/* focus styles */
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #148aeb;
+    outline: none;
+}
+
+/* label  styles */
+label {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 0.25rem;
+    border-radius: 5px;
+}
+
+h1 p {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+
+
+table {
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 2px solid #0711c5; 
+    text-align: left;   
+}
+caption {
+    font-weight: bold;
+    padding: 3px 0 4px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+thead tr {
+    background-color: #6fa5de; 
+}
+th {
+    padding: 0.75em;
+    border: 1px solid #0711c5;
+}
+
+tbody tr {
+    background-color: #dbe9f4; 
+    color: #4d4d4d;
+}
+tbody td {
+    padding: 0.75em;
+    border: 1px solid #0711c5; 
+    width: 190px;
+    height: 190px;
+}
+
+tbody td img {
+    width: 200px;
+    height: 150px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b0c4de; 
+}
+
+tbody tr:hover {
+    background-color: #9eb6d8; 
+    color: rgb(19, 5, 111);
+}
+
+.petrol {
+    background-color: #99cfff; 
+    color: #333;
+}
+
+.diesel {
+    background-color: #66b2ff; 
+    color: #333;
+}
+
+.electric {
+    background-color: #3399ff; 
+    color: #333;
+}
+
+.hybrid {
+    background-color: #0073e6; 
+    color: #fff; 
+}
+.search{
+    margin-bottom: 40px;
+}
+/* Additions for car details page */
+.car_details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.photo_details {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.photo_details img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info_details {
+    flex: 2;
+}
+
+.info_details h2 {
+    margin-top: 0;
+}
+
+.info_details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info_details ul li {
+    margin-bottom: 10px;
+}
+
+.info_details form {
+    margin-top: 20px;
+}
+
+
+
+.info_details form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.markiting {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.photo_details img{
+margin-top: 60px;
+width: 400px;
+height: 400px;
+}
+
+
+
+
+.main_container_reg{
+    background-color: #c8d8ed;
+    width: 80%;
+    align-items: center;
+   
+    margin-top: 1% ;
+   
+}
+.tidy{
+    margin: 120px;
+}
+.invoice{
+    margin: 120px;  
+}
+
+
+.main1_main2{
+display: flex;
+}
+.main1{
+flex: 1;
+text-align: center;
+padding: 2rem;
+}
+.main1 h2 {
+   margin-top: 50px;
+   margin-bottom: 50px;
+    }
+    
+     
+.main2{
+    flex: 1;   
+}
+.img_contact_us img {
+width: 700px;
+height: 500px;
+}
+.error {
+    color: #960713;
+}
+
